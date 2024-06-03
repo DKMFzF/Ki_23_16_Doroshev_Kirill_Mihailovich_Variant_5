@@ -34,7 +34,15 @@ public class Reader extends Thread {
           }
           Thread.sleep(operationDuration);
         }
-        System.out.println("Ждите так как буфер пока пуст.");
+
+        /*
+          System.out.println("Пул пуст"); - Информирует о том, что необходимо ожидать завершения операции,
+          поскольку буферный пул на данный момент пуст. Это сообщение помогает
+          пользователям понять, что операция чтения не может быть выполнена в
+          данный момент из-за отсутствия данных в буфере, и они должны подождать,
+          пока данные появятся.
+        */
+        System.out.println("Пул пуст");
         Thread.sleep(operationDuration);
       }
     } catch (InterruptedException e) {

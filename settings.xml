@@ -1,7 +1,7 @@
 <settings>
   <writerThreadCount>1</writerThreadCount>
-  <readerThreadCount>123</readerThreadCount>
-  <readOperationDuration>14234</readOperationDuration>
-  <writeOperationDuration>1234</writeOperationDuration>
-  <poolSize>2</poolSize>
+  <readerThreadCount>1</readerThreadCount>
+  <readOperationDuration>10002</readOperationDuration>
+  <writeOperationDuration>2000</writeOperationDuration>
+  <poolSize>1</poolSize>
 </settings>
